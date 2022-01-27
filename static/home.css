@@ -1,0 +1,65 @@
+.news {
+    margin: 20px 17px 17px;
+}
+
+.news-box {
+    border-top: 1px solid #7f7f80;
+    display: flex;
+}
+
+.news-left {
+    flex: 1;
+}
+
+.news-left-1, .news-left-2, .news-left-3, .news-left-4 {
+    display: flex;
+    margin-top: 3px;
+}
+
+.icon-pic {
+    color: white;
+    background-color: #e5615b;
+    border-radius: 3px;
+    padding: 1px 2px;
+    margin-right: 5px;
+}
+
+.icon-notice {
+    color: white;
+    background-color: #6174b6;
+    border-radius: 3px;
+    padding: 1px 2px;
+    margin-right: 5px;
+}
+
+.news-right {
+    flex: 1;
+}
+
+.news-right-1,.news-right-2 {
+    margin-top: 7px;
+    display: flex;
+    border-bottom: 1px dashed #7f7f80;
+}
+
+.news-right-1-diary, .news-right-1-pic, .news-right-2-board, .news-right-2-visit {
+    flex: 1;
+}
+
+.room {
+    margin: 17px;
+}
+
+.room-box {
+    border-top: 1px solid #7f7f80;
+}
+
+.room-img {
+    width: 420px; height: 247px;
+    text-align: center;
+    margin: 20px;
+}
+
+.room-img img {
+    height: 100%;
+}

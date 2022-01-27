@@ -1,0 +1,64 @@
+.mid-visit {
+    width: 468px; height: 460px;
+    margin: 15px;
+    overflow: auto;
+}
+
+.visit-box {
+    margin-bottom: 33px;
+}
+
+.visit-title {
+    background: #e8e7e6;
+    padding: 11px 16px;
+}
+
+.fa-home {
+    margin: 0 9px;
+}
+
+.visit-contents {
+    margin: 24px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visit-img {
+    height: 160px;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.4;
+}
+
+.background-1 {
+    background-image: url(./images/background-1.jpg);
+}
+
+.background-2 {
+    background-image: url(./images/background-2.jpg);
+}
+
+.background-3 {
+    background-image: url(./images/background-3.jpg);
+}
+
+.background-1>img {
+    width: 50%;
+}
+
+.background-2>img {
+    width: 70%;
+}
+
+.background-3>img {
+    width: 70%;
+}
+
+.visit-text {
+    margin: 0 15px;
+    flex: 0.6;
+}

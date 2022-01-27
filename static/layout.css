@@ -1,0 +1,149 @@
+body {
+    background-color: #a4a3a3;
+    background-image: url(./images/pattern.png);
+    background-size: 10px;
+    position: fixed;
+    left: 0; right: 0; top: 0; bottom: 0;
+}
+
+.bookcover {
+    width: 865px; height: 595px;
+    background:#b9d5df;
+    border-radius: 5px;
+    margin: 70px auto;
+    position: relative;
+}
+
+.bookdot {
+    width: 835px; height: 565px;
+    border: 2px dashed white;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.page {
+    width: 820px; height: 545px;
+    background: #efeeed;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 14px;
+
+    position: relative;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+}
+
+/*left*/
+
+.left-container {
+    display: flex;
+    flex: 0.3;
+    flex-direction: column;
+    margin-right: 22px;
+}
+
+.num {
+    color: red;
+}
+
+.left-title {
+    text-align: center;
+    padding: 7px 0;
+}
+
+.left-box {
+    background: white;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    width: 195px; height: 485px;
+
+    text-align: center;
+}
+
+.profile {
+    text-align: center;
+    margin: 20px;
+}
+
+.left-box img {
+    width: 144px;
+}
+
+.left-box p {
+    margin: 10px 4px 4px;
+}
+
+.line {
+    color: red;
+}
+
+.dropdown {
+    display: inline-block;
+    margin: 70px 20px 20px;
+}
+
+.surfing {
+    width: 130px; height: 30px;
+    border: 1px solid #c8d3da;
+    padding-left: 4px;
+}
+
+
+/*middle*/
+
+.mid-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.mid-title {
+    display: flex;
+    padding: 5px 0px;
+}
+
+.mid-title-name {
+    font-weight: bold;
+    flex: 1;
+}
+
+.mid-title-url {
+    flex: 1;
+}
+
+.mid-box {
+    background: white;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    width: 495px; height: 485px;
+}
+
+
+/* right*/
+
+.right-container {
+    display: flex;
+    flex: 0.15;
+    flex-direction: column;
+}
+
+.right-menu {
+    position: relative;
+    top: 50px;
+}
+
+.right-menu div {
+    background: #3a81a3;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #5c77b6;
+    border-radius: 0 5px 5px 0;
+}
+
+.right-menu div:hover {
+    background: #5c77b6;
+}

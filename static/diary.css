@@ -1,0 +1,61 @@
+.mid-diary {
+    margin: 15px;
+}
+
+.mid-date {
+    border: 1px solid hsl(30, 4%, 91%);
+    padding: 13px;
+    margin-bottom: 13px;
+    display: flex;   
+}
+
+.mid-date-today {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.mid-diary-outer {
+    width: 465px; height: 380px;
+    overflow: auto;
+}
+
+.mid-diary-inner {
+    border: 1px solid #e8e7e6;
+    padding: 22px;
+    margin-bottom: 21px;
+}
+
+.mid-diary-contents {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.mid-button-box {
+    text-align: center;
+    margin-top: 21px;
+}
+
+.diary-button {
+    transition: 800ms ease all;
+    color: white;
+    background: white;
+    border: none;
+    padding: 15px;
+}
+
+.diary-button:hover {
+    transition: 800ms ease all;
+    color: white;
+    background: #15a384;
+    border: none;
+    padding: 15px;
+}
+
+.fa-lock {
+    color: white;
+    margin-right: 13px;
+}
+
+#secret-box {
+    display: none;
+}

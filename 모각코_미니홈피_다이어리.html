@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="utf-8">
+        <title>2022 MINI HOMEPAGE</title>
+        <link href="./static/font.css" rel="stylesheet">
+        <link href="./static/layout.css" rel="stylesheet">
+        <link href="./static/diary.css" rel="stylesheet">
+        <link href="./static/picture.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/9953406f4b.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div class="bookcover">
+            <div class="bookdot">
+                <div class="page">
+                    <div class="left-container">
+                        <div class="left-title">TODAY <span class="num">28</span> | TOTAL 10720</div>
+                        <div class="left-box">
+                            <div class="profile">
+                                <img src="./static/images/ddd.jpg">
+                                <p>
+                                    "...왜 울었는데.."<br>
+                                    "....양파 썰다가!..."<br>
+                                    "왜 울었냐고?"<br>
+                                    "양파 때문이라고 대답했어"<br>
+                                    <span class="line">"...내가 양파냐.."</span><br><br>
+                                    -개기면죽는다 中-
+                                </p>
+                            </div>
+
+                            <div class="dropdown">
+                                <select name="surfing" class="surfing">
+                                    <option value="none" selected disabled hidden>파도타기</option>
+                                    <option value="코뮤니티로 가기">코뮤니티로 가기</option>
+                                    <option value="인스타그램으로 가기">인스타그램으로 가기</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mid-container">
+                        <div class="mid-title">
+                            <div class="mid-title-name">* ੈ♡‧₊˚보램○lºl 추억バ6ㅈΓ* ੈ♡‧₊˚</div>
+                            <div class="mid-title-url">https://www.instagram.com/boram_0720/</div>
+                        </div>
+                        <div class="mid-box">
+                            <div class="mid-diary">
+                                <div class="mid-date">
+                                    <div class="mid-date-today">01.21<br>FRI</div>
+                                    <div class="mid-date-day">
+                                        <span class="sat">1</span>
+                                        <span class="sun">2</span>
+                                        3 4 5 6 7
+                                        <span class="sat">8</span>
+                                        <span class="sun">9</span>
+                                        10 11 12 13 14
+                                        <span class="sat">15</span>
+                                        <span class="sun">16</span>
+                                        17 18<br>19 20 21
+                                        <span class="sat">22</span>
+                                        <span class="sun">23</span>
+                                        24 25 26 27 28
+                                        <span class="sat">29</span>
+                                        <span class="sun">30</span>
+                                        31
+                                    </div>
+                                </div>
+                                <div class="mid-diary-outer">
+                                    <div class="mid-diary-inner">
+                                        <div class="mid-diary-date">2022.01.18 화 22:00</div>
+                                        <div class="mid-diary-contents">
+                                        오늘은 동ブl 언니오ŀ 학교 앞øłlnㅓ 口ざㄴrnㅓ 놀았ㄷr.<br>
+                                        맛집○l己б 예쁜 ㅋΓ페도 ㄱrヱ 귀걸○l도 샀ㄷr.<br>
+                                        バr실 ㄴr는 코로ㄴr 학번○lㄹΓ 학교를 몇 번 ㄱr보ズl 못했는데 ○l렇つㅓlㄹΓ도 학교 근ㅊłøłlnㅓ 놀 수 있øłnㅓ 좋았ㄷr.<br>
+                                        </div>
+                                    </div>
+                                    <div class="mid-diary-inner">
+                                        <div class="mid-diary-date">2022.01.12 수 12:00</div>
+                                        <div class="mid-diary-contents">
+                                            오늘은 제주도 øㅕ행 ㅁrズl막 날○lㄷr.<br>
+                                            동생과 제주도øłlnㅓ 3일동안 즐つㅓ운 んı간을 보냈는데 벌써 돌ㅇrㄱr○F ㅎŁㄷrヱ ㈛니 너무 ㅇr쉽ㄷr.<br>
+                                            ㄷr음엔 꼭 운전연수를 받ヱ ㅊr를 렌트ぁĦnㅓ 돌ㅇrㄷr녀보ヱ 싶ㄷr.<br>
+                                        </div>
+                                    </div>
+                                    <div class="mid-diary-inner">
+                                        <div class="mid-diary-date">2021.12.31 금 12:35</div>
+                                        <div class="mid-diary-contents">
+                                            오늘은 2021년 ㅁrズl막 날을 맞ㅇr ㄱr족들과 신ㄹΓ호텔øłlnㅓ 점심을 먹었ㄷr.<br>
+                                            중식ㄷб 팔선øłlnㅓ 코스요己l를 먹었는데 맛있었ㄷr.<br>
+                                            ㄷr음øłl도 또 오ヱ 싶은 맛○l었ㄷr.<br>
+                                        </div>
+                                    </div>
+
+                                    <div class="mid-button-box">
+                                        <button class="diary-button" onclick="getTextFile()">
+                                            <i class="fas fa-lock"></i>보램이의 비밀일기 보기
+                                        </button>
+                                    </div>
+                                    <div class="mid-diary-inner" id="secret-box">
+                                        <div class="mid-diary-date">보램이의 비밀일기</div>
+                                        <div class="mid-diary-contents" id="secret-diary"></div>
+                                    </div>
+                                </div>                              
+                            </div>                        
+                        </div>
+                    </div>
+
+                    <div class="right-container">
+                        <div class="right-menu">
+                            <div onclick="location.href='모각코_미니홈피_홈.html';" style="cursor:pointer;" class="right-home">홈</div>
+                            <div onclick="location.href='모각코_미니홈피_다이어리.html';" style="cursor:pointer;" class="right-diary">다이어리</div>
+                            <div onclick="location.href='모각코_미니홈피_사진첩.html';" style="cursor:pointer;" class="right-pic">사진첩</div>
+                            <div onclick="location.href='모각코_미니홈피_방명록.html';" style="cursor:pointer;" class="right-visit">방명록</div>
+                        </div>          
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function getTextFile() {
+                var input = document.createElement("input");
+                input.type = "file";
+                input.accept = "text/plain";
+                input.onchange = function(event) {
+                    processFile(event.target.files[0]);
+                };
+                input.click();
+
+                function processFile(file) {
+                    var reader = new FileReader();
+                    reader.readAsText(file, "utf-8");
+
+                    reader.onload = function() {
+                        document.getElementById("secret-diary").innerText = reader.result;
+                        document.getElementById("secret-box").style.display = "block";
+                    };
+                }
+            }
+        </script>
+    </body>
+</html>

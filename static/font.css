@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@font-face {
+    font-family: 'NeoDunggeunmo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KOTRA_BOLD-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Middleschool_student';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.left-title {
+    font-size: 14px;
+    font-family: 'NeoDunggeunmo';
+}
+
+.left-box p {
+    font-size: 18px;
+    font-family: 'Middleschool_student';
+}
+
+.surfing {
+    font-size: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.mid-title {
+    font-size: 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.mid-title-name {
+    font-weight: bold;
+}
+
+.mid-pic {
+    font-size: 13px;
+    font-family: 'NeoDunggeunmo';
+} 
+
+.mid-date {
+    font-family: 'NeoDunggeunmo';
+}
+
+.mid-date-today {
+    color: #3e7fa3;
+    font-weight: bold;
+}
+
+.mid-date-day {
+    color: #80807c;
+}
+
+.sat {
+    color: #2e49c0;
+}
+.sun {
+    color: #f32447;
+}
+
+.mid-diary-date {
+    font-family: 'NeoDunggeunmo';
+    color: #3e7fa3;
+}
+
+.mid-diary-contents {
+    font-size: 20px;
+    font-family: 'Middleschool_student';
+}
+
+.diary-button {
+    font-size: 13px;
+    font-family: 'NeoDunggeunmo';
+}
+
+.news-title, .room-title {
+    font-family: 'KOTRA_BOLD-Bold';
+    color: #3e7fa4;
+}
+
+.news-box {
+    font-size: 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.news-right span {
+    color: #223591;
+}
+
+.mid-visit {
+    font-size: 14px;
+    font-family: 'NeoDunggeunmo';
+}
+
+.visitor {
+    color: #1b3de7;
+}
+
+.visit-text {
+    color: rgb(46, 46, 46);
+}
+
+.right-container div {
+    font-size: 12px;
+    font-family: 'NeoDunggeunmo';
+    color: white;
+}
